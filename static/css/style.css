@@ -39,13 +39,15 @@ em {
 
 strong {
     padding: 0 3px;
+    border-bottom: 1px dotted;
+    font-weight: normal;
     display: inline-block;
 }
 
 .note {
     float: right;
-    font-size: 0.8em;
-    /*color: #3eaf7c;*/
+    /*font-size: 0.9em;*/
+    color: #607d8b;
     line-height: 1.7;
 }
 
@@ -69,14 +71,14 @@ strong {
 .demo {
     float: right;
     margin-right: 10px;
-    /*color: #FF9800; */
-    color: #607d8b; 
+    color: #FF9800; 
+    /*color: #607d8b; */
     font-size: 14px;
     text-align: center;
     padding: 0px 10px;
     border-width: 1px;
     border-style: solid; 
-    border-color: #607d8b; 
+    border-color: #FF9800; 
     border-image: initial;
     border-radius: 10px;
     box-sizing: border-box;
@@ -167,7 +169,7 @@ hr {
 
 .info-unit {
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .aboutme li {
@@ -260,7 +262,7 @@ progress::-moz-progress-value {
 }
 
 .weixin img{
-    width: 190px;
+    width: 200px;
 }
 
 .left-label {
