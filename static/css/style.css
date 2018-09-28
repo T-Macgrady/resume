@@ -39,11 +39,14 @@ em {
 
 strong {
     padding: 0 3px;
-    border-bottom: 1px dotted;
-    font-weight: normal;
+    /*border-bottom: 1px dotted;*/
+    /*font-weight: normal;*/
     display: inline-block;
 }
 
+.item {
+    margin-bottom: 5px;
+}
 .note {
     float: right;
     /*font-size: 0.9em;*/
@@ -62,7 +65,7 @@ strong {
 }
 
 .tech {
-    margin-top: 10px;
+    margin: 2px 0 5px 0;
     text-align: left;
     font-size: 0.9em;
     font-style: italic;
@@ -159,7 +162,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .right-list li {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 
@@ -173,7 +176,17 @@ hr {
 }
 
 .aboutme li {
-    margin-bottom: 12px;
+    margin-bottom: 5px;
+}
+
+.aboutme strong {
+    font-weight: normal;
+    border-bottom: 1px dotted #6091bc;
+}
+
+.work strong {
+    font-weight: normal;
+    border-bottom: 1px dotted #6091bc;
 }
 
 .remodal-img h3 {

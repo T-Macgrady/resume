@@ -161,70 +161,64 @@
                             <em>Vue</em><em>Vuex</em> <em>Vue-router</em><em>Stylus</em><em>ES6</em><em>Node.js</em><em>Nginx</em>
                             <a class="demo" href="http://47.106.183.192:8888/#/recommend" target="_blank">Demo</a>
                         </p>
+                        <p class="item">
+                            <strong>职责：</strong>从脚手架搭建到发布更新迭代都个人完成
+                        </p class="item">
+                            <strong>难点及解决：</strong>
                         <ol>
                             <li>
-                                使用<em>viewport</em>单位方案实现<strong>移动端适配</strong>
+                                跨域：使用JSONP | Express | Nginx反向代理解决
                             </li>
                             <li>
-                                利用<strong>postcss</strong>工具，处理<strong>浏览器兼容</strong>以及1px边框等常见移动端问题，可专注于业务逻辑开发，加快开发速度
+                                多屏适配：使用最新的viewport单位方案实现
                             </li>
                             <li>
-                                <em>Vuex</em><em>Stylus</em><em>localstorage</em>实现颜色及图片背景<strong>换肤功能</strong>
+                                移动端兼容：利用postcss工具，处理浏览器兼容以及1px边框等常见移动端问题，可专注于业务逻辑开发，加快开发速度
                             </li>
                             <li>
-                                <strong>bug fixed</strong> : 部分不支持auto play、播放源受限、快速切歌歌词异常、词曲不同步等
+                                player组件庞大、逻辑复杂、数据难以维护 : 组件拆分; vuex统一管理播放器数据、逻辑
+                            </li>
+                            <li>
+                                bug fixed : 部分不支持auto play、播放源受限、快速切歌歌词异常、词曲不同步等
+                            </li>
+                            <li>
+                                颜色及图片背景换肤功能 : Vuex | Stylus | localstorage实现
                             </li>
                         </ol>
+                        <strong>效果：</strong>增强技术能力，试验新技术
                     </li>
                     <li>
                         <div class="note">-- 有兼容性、SEO要求的PC&移动端项目</div>
                         <h3>企业校招网站</h3>
                         <p class="tech">PC <em>jQuery</em><em>Hogan</em> | 移动 <em>Vue全家桶</em><em>Sass</em></p>
-                        <ol>
-                            <li>
-                                PC端使用<em>jQuery</em>结合<em>Hogan</em>模板引擎</strong>，提高开发效率
-                            </li>
-                            <li>
-                                进一步深入<strong>构建工具</strong>及模块化开发，代码复用、自动构建、按需加载，极大提高了开发效率，形成团队合作意识
-                            </li>
-                            <li>
-                                <strong>分层架构</strong>设计，分为数据层、视图层、逻辑层、工具层，提升了代码重用性、维护性、扩展性
-                            </li>
-                            <li>
-                                使用<em>JSONP</em><em>Express</em><em>Nginx反向代理</em>解决<strong>跨域问题</strong>
-                            </li>
-                        </ol>
+                        <p class="item">
+                            <strong>职责：</strong>负责移动端业务逻辑开发、多屏适配以及性能优化
+                        </p>
+                        <p>
+                            <strong>分层架构设计：</strong>分为数据层、视图层、逻辑层、工具层，提升了代码重用性、维护性、扩展性
+                        </p>
+                        <p>
+                            <strong>效果：</strong>首屏时间2s以内，适配主流尺寸，用户体验较好
+                        </p>
                     </li>
                     <li>
                         <div class="note">-- 项目维护升级</div>
                         <h3>企业商城网站</h3>
                         <p class="tech">PC <em>jQuery</em> | 移动 <em>Vue</em></p>
+                        <p class="item">
+                            <strong>职责：</strong>负责项目更新维护优化
+                        </p class="item">
+                            <strong>难点及解决：</strong>
                         <ol>
                             <li>
-                                移动端适配：<strong>rem方案</strong>
+                                移动端适配：媒体查询 → rem方案
                             </li>
                             <li>
-                                <strong>性能提升</strong>：利用Chrome性能检测工具
+                                性能优化：利用Chrome性能检测工具，定位并去除多余渲染、多余合成层；动画升级为CSS3；图片升级为webp等
                             </li>
                         </ol>
+                        <strong>效果：</strong>用户体验得到了较好的改善
                     </li>
-                    <li>
-                        <div class="note">-- 第一个Vue项目、练习</div>
-                        <h3>外卖平台项目</h3>
-                        <p class="tech">
-                            <em>Vue</em><em>Flex布局</em><em>Flexible方案</em>
-                            <a class="demo" href="http://47.106.183.192:443" target="_blank">Demo</a>
-                        </p>
-                        <ol>
-                            <li>
-                                开始熟悉<strong>MVVM框架</strong>、分层架构设计及数据响应原理
-                            </li>
-                            <li>
-                                在npm发布并使用<strong>个人插件</strong><em>Vue-click-ripples</em>,使用<em>Svg</em>制作的点击伴随波纹动画
-                            </li>
-                        </ol>
-                    </li>
-
                     <li>
                         <div class="note">
                         -- 包含web端和后台管理系统的完整电商平台项目</div>
@@ -232,15 +226,15 @@
                         <p class="tech">
                             前 <em>jQuery</em> | 后  <em>React</em><em>Bootstrap</em>
                             <a class="demo" href="http://47.106.183.192" target="_blank">前台</a>
-                            <a class="demo" href="http://47.106.183.192:8080" target="_blank">后台</a></p>
-                        <ol>
-                            <li>
-                                开始深入了解<strong>Javascript运行机制</strong>与<strong>Event Loop</strong>
-                            </li>
-                            <li>
-                                首次<strong>上线</strong>个人项目，生产环境配置 → <em>Shell</em>编写发布脚本 → <em>Nginx</em>配置
-                            </li>
-                        </ol>
+                            <a class="demo" href="http://47.106.183.192:8080" target="_blank">后台</a>
+                        </p>
+                        <p class="item">
+                            <strong>职责：</strong>从脚手架搭建到发布上线都由个人完成
+                        </p>
+                        <p class="item">
+                            <strong>难点及解决：</strong>首次接触后端环境nodeJS，进行webpack配置、脚手架搭建、上线个人项目(生产环境配置 → Shell编写发布脚本 → Nginx配置)
+                        </p>
+                        <strong>效果：</strong>熟悉前后端分离/前端工程化
                     </li>
                 </ul>
             </div>
@@ -252,10 +246,10 @@
                             <strong>责任心强</strong>，性格随和，热爱前端开发
                         </li>
                         <li>
-                            Javascript<strong>基础扎实</strong>，对多屏适配、响应式设计及性能优化有一定的经验
+                            Javascript<strong>基础扎实</strong>，对多屏适配、性能优化有一定的经验，偏向移动端
                         </li>
                         <li>
-                            <strong>自学能力强</strong>，热衷学习新技术，当前学习Node.js，希望往<strong>全栈方向</strong>发展
+                            <strong>自学能力强</strong>，热衷学习新技术，当前学习Node.js，有机会希望往<strong>全栈方向</strong>发展
                         </li>
                         <li>
                             有<strong>代码强迫症</strong>，不管是代码风格规范、性能还是产品体验都要求自己做到极致
